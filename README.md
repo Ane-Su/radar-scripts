@@ -8,12 +8,12 @@ This repo has three scripts which can be discribed as follows:
 - splits a user provided large ip range into smaller ip ranges of the user's choosing (/18,/20, /24.etc) 
 - combines the smaller ranges with  user provided exclusion ip ranges and a scan name into a csv file that radar can consume
 - uses this data to create a host discovery scan (you can tweak for port scanning) 
-- before launching the discovery scan, it creates a vulnerability scan group with user input
-- launches the discovery scans
+- creates a vulnerability scan group with user input
+- launches the discovery scan
 
 #script_two: 0rakl.py
-- makes quiries for information that a user would need to run the vuln scan script
-- writes the data into text files and can be grep'd for info
+- makes queries for information that a user would need to run the l0dt script
+- writes the data into text files which can be grep'd for info
 
 #script_three: l0dt.py
 - prompts for user input with info that can be obtained by running script two
