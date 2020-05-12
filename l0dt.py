@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
 				--- by Yuri BlackTie ----
- 	The l0kt.py will add discovery scans to a vulnerability scan group as asset update sources 
+ 	The l0dt.py will add discovery scans to a vulnerability scan group as asset update sources 
  			
- 				Example: ./l0kt.py
+ 				Example: ./l0dt.py
 """
 
 import requests
