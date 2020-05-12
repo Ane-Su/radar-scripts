@@ -73,8 +73,6 @@ for i in range(0, n): 	# iterating and till the range
     lst.append(ele) 	# adding the element 
 #print(lst) 
 
-#discoveryScanId = "974a2fe5-70cc-49ba-bf57-df20ab2f414c"
-
 
 def api_auth():
 	"""
